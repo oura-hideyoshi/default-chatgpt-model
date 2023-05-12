@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "default ChatGPT model",
+  "short_name": "default GPT",
+  "version": "0.1",
+  "description": "a extension for ChatGPT",
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
